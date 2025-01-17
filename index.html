@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav>
+            <div class="logo"><span>Dan</span>iel</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Home Section -->
+    <header id="home">
+        <div class="hero">
+            <div class="overlay">
+                <h1>Hi, I'm <span>Daniel<br></span> a Web Developer & Graphics Designer.</h1>
+                <p>Creating innovative designs and functional web experiences.</p>
+                <p class="subheadline">Passionate about merging creativity with technology to bring ideas to life.</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="cta">View My Work</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Quick Highlights -->
+    <section id="highlights" class="highlight-section">
+        <div class="container">
+            <div class="highlight">
+                <span class="highlight-icon">🖥️</span>
+                <h3>1+ Years of Experience</h3>
+            </div>
+            <div class="highlight">
+                <span class="highlight-icon">💼</span>
+                <h3>3+ Successful Projects</h3>
+            </div>
+            <div class="highlight">
+                <span class="highlight-icon">🎨</span>
+                <h3>Expert in Adobe Suite, React, and Figma</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section (Placeholder) -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>My Work</h2>
+            <div class="project-grid">
+                <!-- Example Project 1 -->
+                <div class="project-card">
+                    <img src="project1-thumbnail.jpg" alt="E-commerce Website for Client Name">
+                    <div class="project-info">
+                        <h3>E-commerce Website for [Client Name]</h3>
+                        <p>Responsive website built with React and Node.js, offering a seamless shopping experience across all devices.</p>
+                        <div class="tags">
+                            <span class="tag">Web Design</span>
+                            <span class="tag">React</span>
+                            <span class="tag">Node.js</span><br><br>
+                        </div>
+                        <a href="https://example.com" class="cta">View Demo</a>
+                    </div>
+                </div>
+
+                <!-- Example Project 2 -->
+                <div class="project-card">
+                    <img src="project2-thumbnail.jpg" alt="Logo Design for Brand Name">
+                    <div class="project-info">
+                        <h3>Logo Design for [Brand Name]</h3>
+                        <p>Crafted a modern, minimalist logo reflecting the brand identity with a focus on simplicity and elegance.</p>
+                        <div class="tags">
+                            <span class="tag">Logo</span>
+                            <span class="tag">Branding</span><br><br>
+                        </div>
+                        <a href="https://example.com" class="cta">View Case Study</a>
+                    </div>
+                </div>
+
+                <!-- Add more projects as needed -->
+            </div>
+        </div>
+    </section>
+    <!-- About Me Section -->
+    <section id="about" class="about-me">
+        <div class="container">
+            <h2>Who Am I?</h2>
+            <p class="bio">
+                I'm <strong>Daniel </strong>, a creative professional with a strong background in web development and graphic design. With a knack for turning complex ideas into user-friendly experiences, I specialize in creating websites that not only look stunning but also function seamlessly. Whether it's designing an app interface, developing a responsive site, or crafting a unique brand identity, I bring dedication and innovation to every project.
+            </p>
+            
+            <h3>Skills & Expertise</h3>
+            <div class="skills">
+                <div class="skill-set">
+                    <h4>Web Development</h4>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>React</li>
+                        <li>Node.js</li>
+                        <li>php</li>
+                    </ul>
+                </div>
+                <div class="skill-set">
+                    <h4>Graphics Design</h4>
+                    <ul>
+                        <li>Adobe Photoshop</li>
+                        <li>Adobe Illustrator</li>
+                        <li>Adobe premiere</li>
+                        <li>Adobe after effect</li>
+                        <li>Figma</li>
+                    </ul>
+                </div>
+                <div class="skill-set">
+                    <h4>Tools</h4>
+                    <ul>
+                        <li>Git</li>
+                        <li>WordPress</li>
+                        <li>Blender</li> <!-- Optional based on your expertise -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+     <!-- Contact Section -->
+     <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get in Touch</h2>
+
+            <!-- Contact Form -->
+            <form action="process_form.php" method="POST" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="cta">Send Message</button>
+            </form>
+
+            <!-- Direct Links -->
+            <div class="social-links">
+                <h3>Connect with Me</h3>
+                <ul>
+                    <li><a href="danielmeskelebayu2627@gmail.com">Email</a></li>
+                    <li><a href="https://t.me/danidesigne">telegram</a></li>
+                    <li><a href="https://github.com/danielm-wq">GitHub</a></li>
+                    <li><a href="https://x.com/dan96135">twitter</a></li>
+                </ul>
+            </div>
+
+            <!-- Location (Optional) -->
+            <div class="location">
+                <p>Located in Addis Abeba, Ethiopia</p>
+            </div>
+        </div>
+    </section>
+    <!-- Footer Section -->
+    <footer id="footer" class="footer">
+        <div class="container">
+            <!-- Social Media Links -->
+            <div class="social-links">
+                <a href="" target="_blank" class="social-icon linkedin" title="LinkedIn">
+                    <img src="linkedin-icon.svg" alt="LinkedIn">
+                </a>
+                <a href="https://github.com/danielm-wq" target="_blank" class="social-icon github" title="GitHub">
+                    <img src="github-icon.svg" alt="GitHub">
+                </a>
+                <a href="https://x.com/dan96135" target="_blank" class="social-icon twitter" title="twitter">
+                    <img src="twitter-icon.svg" alt="twitter">
+                </a>
+                <a href="https://web.facebook.com/dani.yejoka" target="_blank" class="social-icon facebook" title="facebook">
+                    <img src="facebook-icon.svg" alt="facebook">
+                </a>
+                <!-- Add more social icons as needed -->
+            </div>
+
+            <!-- Copyright Note -->
+            <p>&copy; 2024 daniel. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
